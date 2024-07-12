@@ -1211,6 +1211,7 @@ margin: 0 10px;
     gap: 10px;
 }
 }
+
 .friends .box1 img{
     width: 100px;
     height: 100px;
@@ -1230,6 +1231,18 @@ cursor: pointer;
 .friends .box1 .icons i:hover{
     color: white;
     background-color: var(--blue-color);
+}
+@media (max-width:400px) {
+    .friends .box1 .final-option {
+        flex-wrap: wrap;
+    }
+    .friends .box1 .final-option span:first-child {
+    display: block;
+    margin: auto;
+    }
+    .friends .box1 .link-go{
+        margin: 10px auto 0;
+    }
 }
 /*End friends*/
 /*Start Files*/
